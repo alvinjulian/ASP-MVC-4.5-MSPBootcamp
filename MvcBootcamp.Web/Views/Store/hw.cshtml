@@ -1,0 +1,33 @@
+﻿@model List<MvcBootcamp.Web.Models.Customer>
+
+@{
+    ViewBag.Title = "hw";
+}
+
+<h2>Listing List</h2>
+
+<table>
+    <thead>
+        <tr>
+            <td>Company Name</td>
+            <td>City</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @foreach (MvcBootcamp.Web.Models.Customer item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.CompanyName
+                    </td>
+                    <td>
+                        @item.City
+                    </td>
+                </tr>
+            }
+            
+        </tr>
+
+    </tbody>
+</table>
