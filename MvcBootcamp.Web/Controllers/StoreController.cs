@@ -72,5 +72,17 @@ namespace MvcBootcamp.Web.Controllers
             };
             return View(newCust);
         }
+
+        public ViewResult BahasIE()
+        {
+            List<Models.Customer> newCust = new List<Models.Customer>()
+            {
+                new Models.Customer() {CompanyName = "Microsoft", City="United States of America" },
+                new Models.Customer() {CompanyName = "TOA", City = "Japan" },
+                new Models.Customer() {CompanyName = "SONY", City = "Japan" }
+            };
+
+            return View(newCust);
+        }
     }
 }

@@ -1,10 +1,14 @@
-﻿@model List<MvcBootcamp.Web.Models.Customer>
+﻿@model IEnumerable<MvcBootcamp.Web.Models.Customer>
+
+@using MvcBootcamp.Web.Models
 
 @{
     ViewBag.Title = "hw";
 }
 
 <h2>Listing List</h2>
+
+@* Penggunaan Collection untuk di load ke dalam view *@
 
 <table>
     <thead>

@@ -1,0 +1,39 @@
+﻿@using MvcBootcamp.Web.Models
+
+@model IEnumerable<Customer>
+
+
+
+@{
+    ViewBag.Title = "hw";
+}
+
+<h2>IEnumerable</h2>
+
+@* Penggunaan Collection untuk di load ke dalam view *@
+
+<table>
+    <thead>
+        <tr>
+            <td>Company Name</td>
+            <td>City</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @item.CompanyName
+                </td>
+                <td>
+                    @item.City
+                </td>
+            </tr>
+            }
+
+            </tr>
+
+        </tbody>
+    </table>
