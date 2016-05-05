@@ -19,7 +19,7 @@ namespace DataAccessLayer
         {
             this.Orders = new HashSet<Order>();
         }
-    
+        
         public string CustomerID { get; set; }
         public string CompanyName { get; set; }
         public string ContactName { get; set; }

@@ -77,9 +77,9 @@
             @Html.DisplayFor(modelItem => item.Fax)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.CustomerID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.CustomerID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.CustomerID })
+            @Html.ActionLink("Edit", "Edit", new { id=item.CustomerID.Trim() }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CustomerID.Trim() }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CustomerID.Trim() })
         </td>
     </tr>
 }
