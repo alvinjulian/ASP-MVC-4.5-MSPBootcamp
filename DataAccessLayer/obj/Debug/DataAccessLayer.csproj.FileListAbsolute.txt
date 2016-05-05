@@ -8,3 +8,14 @@ E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\bin\De
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\bin\Debug\System.Web.Mvc.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\bin\Debug\System.Web.Razor.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\bin\Debug\System.Web.WebPages.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\bin\Debug\System.Web.Mvc.xml
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\bin\Debug\System.Web.Razor.xml
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\bin\Debug\System.Web.WebPages.xml
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\DataAccessLayer\bin\Debug\System.Web.WebPages.Deployment.xml

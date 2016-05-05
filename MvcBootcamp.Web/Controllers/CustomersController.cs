@@ -146,5 +146,20 @@ namespace MvcBootcamp.Web.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public JsonResult CheckCustomerID(string CustomerID) //harus sama dengan propertinya //Untuk remote server validation
+        {
+            var cust = custRepo.Search(CustomerID);
+            bool isValid;
+            if(cust != null)
+            {
+                isValid = false;
+            }
+            else
+            {
+                isValid = true;
+            }
+            return Json(isValid, JsonRequestBehavior.AllowGet);
+        }
     }
 }
