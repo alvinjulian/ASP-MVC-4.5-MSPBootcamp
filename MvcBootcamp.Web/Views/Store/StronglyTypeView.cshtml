@@ -2,6 +2,17 @@
 
 @*@model IEnumerable<MvcBootcamp.Web.Models.Customer>*@
 
+@*@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}*@
+
+@*@{
+    Layout = null; @*Nentuin penggunaan layout, NULL bikin ga ada layout. Bisa dicustom tiap view  
+}*@
+
+
+
+
 @{
     ViewBag.Title = "StronglyTypeView";
 }
@@ -10,3 +21,4 @@
 
 <p>Company Name : @Model.CompanyName</p>
 <p>City : @Model.City</p>
+

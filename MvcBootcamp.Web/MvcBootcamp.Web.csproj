@@ -184,6 +184,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\myStyle.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -242,6 +243,7 @@
     <Content Include="Views\Store\StronglyTypeView.cshtml" />
     <Content Include="Views\Store\hw.cshtml" />
     <Content Include="Views\Store\BahasIE.cshtml" />
+    <Content Include="Views\Store\_PartialViewDemo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
