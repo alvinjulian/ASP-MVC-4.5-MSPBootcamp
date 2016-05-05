@@ -1,0 +1,11 @@
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\NorthwindRepository\bin\Debug\NorthwindRepository.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\NorthwindRepository\bin\Debug\NorthwindRepository.pdb
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\NorthwindRepository\bin\Debug\DataAccessLayer.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\NorthwindRepository\bin\Debug\EntityFramework.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\NorthwindRepository\bin\Debug\EntityFramework.SqlServer.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\NorthwindRepository\bin\Debug\DataAccessLayer.pdb
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\NorthwindRepository\bin\Debug\EntityFramework.xml
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\NorthwindRepository\bin\Debug\EntityFramework.SqlServer.xml
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\NorthwindRepository\obj\Debug\NorthwindRepository.csprojResolveAssemblyReference.cache
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\NorthwindRepository\obj\Debug\NorthwindRepository.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\NorthwindRepository\obj\Debug\NorthwindRepository.pdb

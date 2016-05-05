@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NorthwindRepository.Interfaces
 {
-    interface IEntityRepository<T, P> where T:class where P:struct
+    public interface IEntityRepository<T, P> where T:class where P:IConvertible
     {
         IQueryable<T> GetAllData(); // Query Value
 

@@ -53,7 +53,7 @@ namespace MvcBootcamp.Web.Controllers
         }
         public ViewResult StronglyTypeView()
         {
-            var newCust = new Models.Customer()
+            var newCust = new Models.CustomerData()
             {
                 CompanyName = "Native Enterprise",
                 City = "Bandung"
@@ -64,22 +64,22 @@ namespace MvcBootcamp.Web.Controllers
 
         public ViewResult hw()
         {
-            List<Models.Customer> newCust = new List<Models.Customer>()
+            List<Models.CustomerData> newCust = new List<Models.CustomerData>()
             {
-                new Models.Customer() {CompanyName = "Microsoft", City="United States of America" },
-                new Models.Customer() {CompanyName = "TOA", City = "Japan" },
-                new Models.Customer() {CompanyName = "SONY", City = "Japan" }
+                new Models.CustomerData() {CompanyName = "Microsoft", City="United States of America" },
+                new Models.CustomerData() {CompanyName = "TOA", City = "Japan" },
+                new Models.CustomerData() {CompanyName = "SONY", City = "Japan" }
             };
             return View(newCust);
         }
 
         public ViewResult BahasIE()
         {
-            List<Models.Customer> newCust = new List<Models.Customer>()
+            List<Models.CustomerData> newCust = new List<Models.CustomerData>()
             {
-                new Models.Customer() {CompanyName = "Microsoft", City="United States of America" },
-                new Models.Customer() {CompanyName = "TOA", City = "Japan" },
-                new Models.Customer() {CompanyName = "SONY", City = "Japan" }
+                new Models.CustomerData() {CompanyName = "Microsoft", City="United States of America" },
+                new Models.CustomerData() {CompanyName = "TOA", City = "Japan" },
+                new Models.CustomerData() {CompanyName = "SONY", City = "Japan" }
             };
 
             return View(newCust);
