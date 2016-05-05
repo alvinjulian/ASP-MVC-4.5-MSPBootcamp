@@ -53,3 +53,7 @@ E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\obj\Debug\MvcBootcamp.Web.Tests.csprojResolveAssemblyReference.cache
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\obj\Debug\MvcBootcamp.Web.Tests.dll
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\obj\Debug\MvcBootcamp.Web.Tests.pdb
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\NorthwindRepository.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\DataAccessLayer.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\NorthwindRepository.pdb
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\DataAccessLayer.pdb
