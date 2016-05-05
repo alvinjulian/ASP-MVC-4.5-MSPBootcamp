@@ -22,6 +22,7 @@ namespace DataAccessLayer
         [Display(Name="Customer ID")]
         [Required(ErrorMessage = "Customer ID harus diisi")]
         [StringLength(5, ErrorMessage = "ID Max 5 karakter")]
+        [Remote("CheckCustomerID", "Customers", ErrorMessage = "Customer ID tersebut sudah ada")]
         public string CustomerID { get; set; }
 
         [Display(Name = "Customer Name")]
