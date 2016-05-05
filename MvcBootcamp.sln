@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcBootcamp.Web", "MvcBootc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcBootcamp.Web.Tests", "MvcBootcamp.Web.Tests\MvcBootcamp.Web.Tests.csproj", "{D2679C95-FB98-43DA-A0FB-89CC188F7B3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{8D628BC9-386C-4093-80B7-EFDCAEC0E4E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindRepository", "NorthwindRepository\NorthwindRepository.csproj", "{CEA59EB6-23B5-44A7-919C-BEAB0A136811}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D2679C95-FB98-43DA-A0FB-89CC188F7B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2679C95-FB98-43DA-A0FB-89CC188F7B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2679C95-FB98-43DA-A0FB-89CC188F7B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D628BC9-386C-4093-80B7-EFDCAEC0E4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D628BC9-386C-4093-80B7-EFDCAEC0E4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D628BC9-386C-4093-80B7-EFDCAEC0E4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D628BC9-386C-4093-80B7-EFDCAEC0E4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA59EB6-23B5-44A7-919C-BEAB0A136811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA59EB6-23B5-44A7-919C-BEAB0A136811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA59EB6-23B5-44A7-919C-BEAB0A136811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA59EB6-23B5-44A7-919C-BEAB0A136811}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
