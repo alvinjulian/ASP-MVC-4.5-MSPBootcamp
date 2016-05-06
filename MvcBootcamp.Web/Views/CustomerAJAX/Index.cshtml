@@ -6,6 +6,8 @@
 
 <h2>@ViewBag.Title</h2>
 
+@Styles.Render("~/Content/bootstrap")
+
 @* Form untuk search menggunakan AJAX *@
 <div>
 
@@ -31,5 +33,30 @@
 
 <div id="divresult">
     No Result
-
 </div>
+
+<div>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                @Ajax.ActionLink(item.CustomerID, "Search", new { name = item.CompanyName },
+                    new AjaxOptions
+                    {
+                        InsertionMode = InsertionMode.Replace,
+                        HttpMethod = "Get",
+                        UpdateTargetId = "divdetail"
+                    }
+                )
+            </li>
+        }
+    </ul>
+</div>
+
+<div id="divdetail">
+    No Details
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryajax");
+    }
