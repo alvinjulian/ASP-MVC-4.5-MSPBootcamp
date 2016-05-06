@@ -13,6 +13,11 @@ namespace MvcBootcamp.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //Route yang bisa digunakan di View dan Controller
+            routes.MapMvcAttributeRoutes();
+
+
+            //Traditional Route
             routes.MapRoute(
                 name: "Store",
                 url: "MyStore/BrowseProduct/{category}",
