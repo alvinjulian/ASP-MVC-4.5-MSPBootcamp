@@ -1,0 +1,35 @@
+﻿@model IEnumerable<DataAccessLayer.Customer>
+
+@{
+    ViewBag.Title = "Customer AJAX";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@* Form untuk search menggunakan AJAX *@
+<div>
+
+    @using (Ajax.BeginForm("Search", "CustomerAJAX",
+                                    new AjaxOptions
+                                    {
+                                        InsertionMode = InsertionMode.Replace,
+                                        HttpMethod = "Get",
+                                        UpdateTargetId = "divresult" //untuk bagian yang di replace di html
+                                    }
+
+                                    ))
+    {
+       <div class="form-control form-group">
+           <input type="text" name="name" />
+           <input type="submit" value="Search by AJAX" />
+       </div>
+    }
+
+
+</div>
+
+
+<div id="divresult">
+    No Result
+
+</div>
