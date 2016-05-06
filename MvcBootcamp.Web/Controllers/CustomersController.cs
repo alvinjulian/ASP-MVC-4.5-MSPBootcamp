@@ -63,15 +63,23 @@ namespace MvcBootcamp.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "CustomerID,CompanyName,ContactName,ContactTitle,Address,City,Region,PostalCode,Country,Phone,Fax")] Customer customer)
         {
-            if (ModelState.IsValid)
+            try
             {
-                //db.Customers.Add(customer);
-                //db.SaveChanges();
-                custRepo.Insert(customer);
+                if (ModelState.IsValid)
+                {
+                    //db.Customers.Add(customer);
+                    //db.SaveChanges();
+                    custRepo.Insert(customer);
                 
-                return RedirectToAction("Index");
+                    return RedirectToAction("Index");
+                }
             }
-
+            catch (Exception ex)
+            {
+                //Simpan Error Message Detail ke DB
+                ViewBag.ErrMsg = ex.ToString();
+                
+            }
             return View(customer);
         }
 
