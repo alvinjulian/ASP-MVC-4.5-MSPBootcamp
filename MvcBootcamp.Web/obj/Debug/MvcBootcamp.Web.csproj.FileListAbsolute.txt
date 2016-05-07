@@ -71,3 +71,9 @@ E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web\bin\Da
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web\bin\NorthwindRepository.dll
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web\bin\DataAccessLayer.pdb
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web\bin\NorthwindRepository.pdb
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web\bin\System.Net.Http.Formatting.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web\bin\System.Web.Http.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web\bin\System.Web.Http.WebHost.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web\bin\System.Net.Http.Formatting.xml
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web\bin\System.Web.Http.xml
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web\bin\System.Web.Http.WebHost.xml
