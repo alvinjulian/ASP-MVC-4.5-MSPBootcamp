@@ -66,11 +66,11 @@ namespace MvcBootcamp.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "CustomerID,CompanyName,ContactName,ContactTitle,Address,City,Region,PostalCode,Country,Phone,Fax")] Customer customer)
         {
-            bool isError = true;
-            if (isError)
-            {
-                throw new Exception();
-            }
+            //bool isError = true;
+            //if (isError)
+            //{
+            //    throw new Exception();
+            //}
 
             try
             {
