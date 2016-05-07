@@ -24,8 +24,13 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Customers", "Index", "Customers")</li>
-                    <li>@Html.ActionLink("CustomerAJAX", "Index", "CustomerAJAX")</li>
+
+                    @if (Request.IsAuthenticated && User.IsInRole("Administrator")) //Membuat layout yang ada spesifik berdasarkan user
+                    {
+                        <li>@Html.ActionLink("Customers", "Index", "Customers")</li>
+                        <li>@Html.ActionLink("CustomerAJAX", "Index", "CustomerAJAX")</li>
+                    }
+                    
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
