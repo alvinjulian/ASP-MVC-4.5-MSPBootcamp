@@ -13,6 +13,7 @@ using DataAccessLayer;
 
 namespace MvcBootcamp.Web.Controllers
 {
+    [Authorize]
     public class CustomersController : Controller
     {
         //private NorthwindEntities db = new NorthwindEntities();
@@ -28,6 +29,7 @@ namespace MvcBootcamp.Web.Controllers
         }
 
         // GET: Customers
+        [AllowAnonymous]
         public ActionResult Index()
         {
             //return View(db.Customers.ToList());
@@ -35,6 +37,7 @@ namespace MvcBootcamp.Web.Controllers
         }
 
         // GET: Customers/Details/5
+        [AllowAnonymous]
         public ActionResult Details(string id)
         {
             if (id == null)
@@ -141,6 +144,8 @@ namespace MvcBootcamp.Web.Controllers
         }
 
         // POST: Customers/Delete/5
+        //[Authorize(Users ="admin")] //Membatasi agar hanya user admin yang bisa menggunakan Action Method ini
+        [Authorize(Roles = "Administrator")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
