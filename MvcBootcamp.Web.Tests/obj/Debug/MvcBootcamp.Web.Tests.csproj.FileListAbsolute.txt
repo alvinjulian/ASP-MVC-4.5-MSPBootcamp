@@ -13,7 +13,6 @@ E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\MvcBootcamp.Web.Tests.dll.config
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\MvcBootcamp.Web.Tests.dll
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\MvcBootcamp.Web.Tests.pdb
-E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\MvcBootcamp.Web.dll
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\Newtonsoft.Json.dll
@@ -63,3 +62,5 @@ E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\System.Web.Http.xml
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\Telerik.JustMock.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\Telerik.JustMock.xml
