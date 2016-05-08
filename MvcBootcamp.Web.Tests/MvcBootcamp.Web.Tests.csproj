@@ -92,9 +92,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{8d628bc9-386c-4093-80b7-efdcaec0e4e0}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MvcBootcamp.Web\MvcBootcamp.Web.csproj">
       <Project>{6C3AE3E2-B8AE-43C0-99BF-D216873B7059}</Project>
       <Name>MvcBootcamp.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NorthwindRepository\NorthwindRepository.csproj">
+      <Project>{cea59eb6-23b5-44a7-919c-beab0a136811}</Project>
+      <Name>NorthwindRepository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

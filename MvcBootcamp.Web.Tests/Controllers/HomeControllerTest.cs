@@ -28,13 +28,13 @@ namespace MvcBootcamp.Web.Tests.Controllers
         [TestMethod]
         public void About()
         {
-            // Arrange
+            // Arrange = Menginisialisasi class yang akan dites
             HomeController controller = new HomeController();
 
-            // Act
+            // Act = memanggil fucntionality yang akan di tes
             ViewResult result = controller.About() as ViewResult;
 
-            // Assert
+            // Assert = hasil test dari act, akan memberikan hasil fail atau pass
             Assert.AreEqual("Your application description page.", result.ViewBag.Message);
         }
 
