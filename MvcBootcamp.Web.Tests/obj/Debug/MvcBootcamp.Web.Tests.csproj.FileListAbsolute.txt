@@ -64,3 +64,5 @@ E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\Telerik.JustMock.dll
 E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\Telerik.JustMock.xml
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\EntityFramework.SqlServer.dll
+E:\Microsoft Student Partner\Bootcamp\Project\MvcBootcamp\MvcBootcamp.Web.Tests\bin\Debug\EntityFramework.SqlServer.xml
